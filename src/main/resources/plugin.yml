@@ -1,0 +1,16 @@
+name: SchlemSolnca
+version: 1.0.0
+main: ru.holyworld.schlemsolnca.SchlemSolnca
+api-version: "1.21"
+author: HolyWorld
+description: Добавляет шлем солнца — золотой неразрушаемый шлем с защитой незерита
+commands:
+  schlemsolnca:
+    description: Выдать шлем солнца
+    usage: /schlemsolnca [игрок]
+    permission: schlemsolnca.give
+    permission-message: §cУ вас нет прав на использование этой команды!
+permissions:
+  schlemsolnca.give:
+    description: Доступ к команде /schlemsolnca
+    default: op
